@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Digital Tashbih</title>
+          <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+          <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="pt-40 ">
+          <header>
+          <h1 class="text-center text-6xl mb-10 font-bold text-cyan-500 to-blue-500">Digital Tashbih</h1>
+          </header>
+          <main>
+          <div class="flex items-center justify-center gap-20">
+          <div class="card w-96 bg-white text-black shadow-lg">
+          <div class="card-body items-center text-center">
+                    <h1 class=" text-3xl">Subhan Allah</h1>
+          <p id="subhanAllahDisplay" class=" text-3xl">0</p>
+          <div class="card-actions justify-end">
+          <button id="subhanAllahIncrase" class="btn bg-green-600 text-white">Incrace</button>
+          <button id="subhanAllahDecrase" class="btn bg-red-500 text-white">Decrace</button>
+          </div>
+          </div>
+          </div>
+          <div class="card w-96 bg-white text-black shadow-lg">
+          <div class="card-body items-center text-center">
+                    <h1 class=" text-3xl">Alhamdulillah</h1>
+          <p id="alhamdulillahDisplay" class=" text-3xl">0</p>
+          <div class="card-actions justify-end">
+          <button id="alhamdulillahIncrase" class="btn bg-green-600 text-white">Incrace</button>
+          <button id="alhamdulillahDecrase" class="btn bg-red-500 text-white">Decrace</button>
+          </div>
+          </div>
+          </div>
+          <div class="card w-96 bg-white text-black shadow-lg">
+          <div class="card-body items-center text-center">
+                    <h1 class=" text-3xl">Allahu Akbar</h1>
+          <p id="allahuakbarDisplay" class=" text-3xl">0</p>
+          <div class="card-actions justify-end">
+          <button id="allahuakbarIncrase" class="btn bg-green-600 text-white">Incrace</button>
+          <button id="allahuakbarDecrase" class="btn bg-red-500 text-white">Decrace</button>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="items-center justify-center text-center mt-10">
+                    <button id="resetButton" class="btn bg-[#38bdf8] text-white">RESET ALL</button>
+          </div>
+          <script src="script.js"></script>
+          </main>
+</body>
+
+</html>
